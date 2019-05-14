@@ -1,0 +1,1 @@
+{"virtualbox":{"/app":{"guestpath":"/app","hostpath":"/Users/tech-a06/Documents/engineering-29/DevOps/week8/homework/NodeJS-Dev-env/dev-environments/app","disabled":false,"__vagrantfile":true},"/vagrant":{"guestpath":"/vagrant","hostpath":"/Users/tech-a06/Documents/engineering-29/DevOps/week8/homework/NodeJS-Dev-env/dev-environments","disabled":false,"__vagrantfile":true}}}
