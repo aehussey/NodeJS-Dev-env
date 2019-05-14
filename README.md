@@ -2,7 +2,9 @@
 
 ## How to use
 
-Fork this repo and clone the contents down onto your local device.
+Fork this repo and clone the contents down onto your local device. Make sure you have the most up to date version of Virtual Box on your machine. This is used to host the virtual machine.
+
+You may have to run `vagrant plugin install vagrant-hostsupdater` on the command line.
 
 Go into the 'dev-environments' folder and run 'vagrant up'.
 
@@ -22,7 +24,7 @@ Go into the /app folder to make changes -- The app.js file is called and run in 
 
 - A script was then set up to create an environment suitable for NodeJS. The provision.sh file was connected to the Vagrantfile to execute certain bash commands.
 
-- This was used to install the web-server Nginx and NodeJS version 6. The connection to Nginx was made through port 3000.
+- This was used to install the web-server Nginx and NodeJS version 6. The connection to Nginx was made through port 3000 as instructed by the app.js file.
 
 - The production process manager, PM2, was also installed as a load-balancer, and so that the server will automatically be refreshed if the server goes down.
 
