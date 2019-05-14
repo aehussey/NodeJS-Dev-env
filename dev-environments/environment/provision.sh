@@ -7,5 +7,6 @@ curl -sL https://deb.nodesource.com/setup_6.x | sudo -E bash -
 sudo apt-get install nodejs -y
 npm install pm2 -g
 sudo systemctl start nginx
-cd /app/
+cd /app
+npm install -g
 pm2 start app.js
